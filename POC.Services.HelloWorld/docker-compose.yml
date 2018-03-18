@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  poc.services.helloworld:
+    image: poc.services.helloworld
+    build:
+      context: .
+      dockerfile: POC.Services.HelloWorld/Dockerfile
