@@ -13,7 +13,7 @@ namespace POC.Services.HelloWorld.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "Hello", "World!", "test7" };
+            return new string[] { "Hello", "World!", "test8" };
         }
 
         // GET api/values/5
